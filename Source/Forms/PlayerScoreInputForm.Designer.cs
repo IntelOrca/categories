@@ -34,8 +34,8 @@
 			// 
 			// lblInformation
 			// 
-			this.lblInformation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
-						| System.Windows.Forms.AnchorStyles.Right)));
+			this.lblInformation.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
 			this.lblInformation.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.lblInformation.Location = new System.Drawing.Point(12, 9);
 			this.lblInformation.Name = "lblInformation";
@@ -65,6 +65,7 @@
 			this.chkRank.TabIndex = 4;
 			this.chkRank.Text = "Rank";
 			this.chkRank.UseVisualStyleBackColor = true;
+			this.chkRank.CheckedChanged += new System.EventHandler(this.chkRank_CheckedChanged);
 			// 
 			// PlayerScoreInputForm
 			// 
